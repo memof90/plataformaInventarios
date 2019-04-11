@@ -164,17 +164,207 @@ img.seleccion:hover{
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.1);
 }
+/* ==========================================================================
+   contenido login
+   ========================================================================== */
+
+   div.contenido-login{
+     background-color: #30DB32;
+     margin: 0 auto;
+     width: 850px;
+     height: 750px;
+     margin-top: 50px;
+   }
+
+div.barara-ingresar{
+  margin: 0 auto;
+  background: #005826;
+  width: 850px;
+  height: 50px;
+}
+
+div.barara-ingresar h4{
+  color: #fe4918;
+  position: absolute;
+  margin-left: 320px;
+ margin-top: 10px;
+ font-family: 'Oswald', sans-serif;
+ height: 20px;
+}
+
+div.imagen-login{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 400px;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+div.imagen-login:hover{
+  color:#005826;
+  -webkit-transition: all.5s ease-in-out;
+}
+
+form.formulario-ingreso{
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+
+h5.login-inicio{
+  margin-left: 0px;
+  font-family: 'Oswald', sans-serif;
+  color: #005826;
+  font-size: 1.5em;
+}
+
+input.email-login{
+  width: 300px;
+  margin-left: -120px;
+  height: 30px;
+  background-color: #CCFFCC;
+  padding: 5px 5px 5px 25px;
+  border: 2px solid #005826;
+}
+
+h5.password{
+  font-family: 'Oswald', sans-serif;
+  color: #005826;
+  font-size: 1.5em;
+}
+input.password-login{
+  width: 300px;
+  margin-left: -120px;
+  height: 30px;
+  background-color: #CCFFCC;
+  padding: 5px 5px 5px 25px;
+  border: 2px solid #005826;
+
+}
+
+#imagen-email{
+  position: absolute;
+  margin-left: -298px;
+  margin-top: 7px;
+  color: #005826;
+}
+
+#imagen-password{
+  position: absolute;
+  margin-left: -298px;
+  margin-top: 8px;
+  color: #005826;
+}
+
+a.olvido-contraseña{
+  margin-left: -200px;
+  text-decoration: none;
+  color: #005826;
+  background: #CCFFCC;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  height: 31px;
+  width: 153px;
+  border: 2px solid #005826;
+
+}
+a.olvido-contraseña:hover{
+  background: #005826;
+  color: #ffffff;
+  -webkit-transition: all.5s ease-in-out;
+}
+
+a.registar{
+  margin-left: 100px;
+  text-decoration: none;
+  color: #005826;
+  background: #CCFFCC;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  height: 31px;
+  width: 153px;
+  text-align: center;
+  border: 2px solid #005826;
+}
+a.registar:hover{
+  background: #005826;
+  color: #ffffff;
+  -webkit-transition: all.5s ease-in-out;
+}
+
+input.boton-entrar{
+  color: #005826;
+  background: #CCFFCC;
+  font-size: 1.5em;
+  border: 2px solid #005826;
+}
+
+input.boton-entrar:hover{
+  background: #005826;
+  color: #ffffff;
+  -webkit-transition: all.5s ease-in-out;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
 
 
 
+/*footer*/
+.site-footer{
+background-color: #005826;
+padding-top: 50px;
+margin-top: 20px;
+}
 
+footer .contenedor > div{
+  color: #ffffff;
+  padding: 0px 20px;
+  font-size: 12px;
+  text-align: justify;
 
+}
+@media only screen and (min-width:768px){
+  footer .contenedor > div{
+    width: 33.3%;
+    float: left;
+  }
+}
 
+footer h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Oswald',sans-serif;
+  margin-bottom: 20px;
+}
+footer h3 span{
+  color: #fe4918;
+}
 
+footer .ultimos-tweets li{
+  margin-bottom: 10px;
+}
 
+footer nav.redes-sociales {
+  text-align: left;
+}
 
+p.copyright {
 
+  background-color: #2e2e2e!important;
+  color: #ffffff!important;
+  text-align: center!important;
+  padding: 10px 0!important;
+  margin: 20px 0 0 0!important;
+}
 
+nav.redes-sociales a{
+color: #ffffff;
+margin-left: 13px;
+font-size: 1.8em;
+}
 
 
 /* ==========================================================================
