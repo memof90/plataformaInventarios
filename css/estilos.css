@@ -466,6 +466,30 @@ div.contenido-escoger img:hover{
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.1);
 }
+
+/* ==========================================================================
+   Agenda Lacetos de belen
+   ========================================================================== */
+div.Agenda-lacetos{
+  margin-top: 80px;
+}
+
+div.Agenda-lacetos i{
+  margin-left: 140px;
+  font-size: 2em;
+  color: #005826;
+
+}
+
+div.Agenda-lacetos h3 {
+  display: inline-block;
+  margin-left: 20px;
+  color: #005826;
+  font-family: 'Oswald',sans-serif;
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
