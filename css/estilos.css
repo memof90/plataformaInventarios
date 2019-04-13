@@ -405,6 +405,67 @@ font-size: 1.8em;
     transition: all 1.5s ease-in-out;
   }
 
+  /* ==========================================================================
+     escogerUsuario
+     ========================================================================== */
+     div.contenido-escoger{
+       margin: 0 auto;
+       width: 1000px;
+       height: 500px;
+       background-color: #30DB32;
+       margin-top: 50px;
+     }
+
+div.contenido-escoger h2{
+  margin-left: 420px;
+  font-family: 'Oswald',sans-serif;
+  position: absolute;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+ul.elegir-usuario{
+  list-style: none;
+  position: absolute;
+  margin-top: 150px;
+
+}
+div.contenido-escoger ul li a{
+  font-size: 1.8em;
+
+}
+div.contenido-escoger ul li {
+  font-family: 'Oswald',sans-serif;
+  color: #ffffff;
+}
+
+div.contenido-escoger ul li:hover{
+
+  color: #005826!important;
+  transition: all 1.5s ease-in-out;
+}
+div.contenido-escoger ul li a i:hover{
+
+color: #ffffff!important;
+transition: all 1.5s ease-in-out;
+
+}
+
+div.contenido-escoger img {
+  position: absolute;
+  margin-left: 302px;
+  margin-top: 124px;
+  overflow: hidden;
+  max-width: 100%;
+  filter: gray;
+-webkit-filter: grayscale(1);
+-webkit-transition: all.5s ease-in-out;
+}
+
+div.contenido-escoger img:hover{
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.1);
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
