@@ -366,6 +366,44 @@ margin-left: 13px;
 font-size: 1.8em;
 }
 
+/* ==========================================================================
+   interfaz-Escoger usuario
+   ========================================================================== */
+   a.boton-salir{
+     text-decoration: none;
+     position: absolute;
+     margin-top: -60px;
+     margin-left: 750px;
+     font-family: 'Oswald',sans-serif;
+     font-size: 1.5em;
+     color: #fe4918;
+     width: 75px;
+     height: 38px;
+     text-align: center;
+   }
+
+   a.boton-salir:hover{
+   background: #005826;
+   transition: all 1.5s ease-in-out;
+
+   }
+
+   a.boton-ayuda{
+     text-decoration: none;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -60px;
+    font-family: 'Oswald',sans-serif;
+    font-size: 1.5em;
+    color: #fe4918;
+    width: 75px;
+    height: 38px;
+    text-align: center;
+   }
+  a.boton-ayuda:hover{
+    background: #005826;
+    transition: all 1.5s ease-in-out;
+  }
 
 /* ==========================================================================
    Helper classes
