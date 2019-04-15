@@ -484,7 +484,7 @@ div.Agenda-lacetos i{
 div.Agenda-lacetos h3 {
   display: inline-block;
   margin-left: 20px;
-  color: #005826;
+  color: #fe4918;
   font-family: 'Oswald',sans-serif;
 }
 
@@ -500,7 +500,58 @@ div.contenido-1{
   height: 602px;
   position: absolute;
   margin-top: -562px;
+}
 
+.mensaje-secundario{
+  color: #fe4918!important;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#calendario-item{
+  position: absolute;
+  margin-left: -300px;
+  margin-top: 40px;
+}
+
+p.hora-evento{
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 38px;
+  font-family: 'Oswald',sans-serif;
+    color: #fe4918;
+}
+
+p.lugar-evento{
+ position: absolute;
+ margin-top: 40px;
+ margin-left: 500px;
+ font-family: 'Oswald',sans-serif;
+   color: #fe4918;
+}
+
+#localización-evento{
+  margin-top: 40px;
+  margin-left: 115px;
+  position: absolute;
+}
+
+div.horas1 ul{
+  list-style: none;
+}
+
+div.horas1 ul li{
+  float: left;
+  width: 100px;
+  margin-top: 200px;
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-family: 'Oswald',sans-serif;
+  color: #fe4918;
+}
+
+div.horas1 ul li p{
+  color: #005826;
 }
 
 /* ==========================================================================
