@@ -488,7 +488,20 @@ div.Agenda-lacetos h3 {
   font-family: 'Oswald',sans-serif;
 }
 
+div.bd-example{
+  width: 1000px;
+  margin-left: 140px;
+  margin-top: 50px;
+}
 
+div.contenido-1{
+  background-color: rgba(225, 225, 225, 0.7);
+  width: 700px;
+  height: 602px;
+  position: absolute;
+  margin-top: -562px;
+
+}
 
 /* ==========================================================================
    Helper classes
