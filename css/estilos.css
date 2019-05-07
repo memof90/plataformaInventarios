@@ -560,26 +560,26 @@ div.horas1 ul li p{
  div.Navegacion{
    background: #005826;
  }
- nav {
+ nav.navegacion-menu {
    width: 1200px;
    margin: 0 auto;
    position: relative;
  }
 
- nav ul{
+ nav.navegacion-menu ul{
    list-style: none;
  }
- nav > ul > li{
+ nav.navegacion-menu > ul > li{
    float: left;
  }
 
- nav ul::after{
+ nav.navegacion-menu ul::after{
    content: '';
    display: block;
    clear: both;
  }
 
- nav ul li a{
+ nav.navegacion-menu ul li a{
    display: inline-block;
    width: 145px;
    color: #ffffff;
@@ -588,26 +588,96 @@ div.horas1 ul li p{
    padding: 20px;
  }
 
- nav ul li a:hover{
+ nav.navegacion-menu ul li a:hover{
    background-color: #30DB32;
    text-decoration: none;
    color: #ffffff;
  }
 
  /*Segundo Nivel*/
- nav ul ul {
+ nav.navegacion-menu ul ul {
    position: absolute;
    top: 100%;
    background-color:rgba(0, 88, 38, 0.9);
    display: none;
  }
 
- nav ul li:hover > ul{
+ nav.navegacion-menu ul li:hover > ul{
    display: block;
  }
- nav ul li:hover{
+ nav.navegacion-menu ul li:hover{
    background-color:rgba(48, 219, 50, 0.9);
  }
+
+ /* ==========================================================================
+    Dahs-Board
+    ========================================================================== */
+  div.contenido-dashBoard{
+    width: 1000px;
+    height: 300px;
+    background: #3CBF89;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  div.contenido-dashBoard h4{
+    color: #ffffff;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 450px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  nav.dashBoard{
+    width: 1500px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 130px;
+
+  }
+
+  nav.dashBoard ul{
+    list-style: none;
+
+  }
+ nav.dashBoard > ul > li{
+   float: left;
+ }
+
+nav.dashBoard ul::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+nav.dashBoard ul li a{
+  display: inline-block;
+  width: 135px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  color: #ffffff
+}
+
+nav.dashBoard ul li a:hover{
+color: #fe4918;
+transition: all.5s ease-in-out;
+}
+
+nav.dashBoard ul li a i{
+  font-size: 1.7em;
+  background: linear-gradient(#626ED8,#B914A4,#BC11A2);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+nav.dashBoard ul li a i:hover{
+  color: #005826;
+  transition: all.5s ease-in-out;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
