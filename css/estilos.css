@@ -678,6 +678,43 @@ nav.dashBoard ul li a i:hover{
   color: #005826;
   transition: all.5s ease-in-out;
 }
+
+/* ==========================================================================
+Interfaz clientes de director
+   ========================================================================== */
+   div.area-buscador{
+     margin-left: 900px;
+     margin-top: 100px;
+   }
+
+input.buscador{
+  width: 300px;
+  margin-left: -120px;
+  height: 30px;
+  background-color:rgba(204, 255, 204, 0.7);
+  padding: 5px 5px 5px 25px;
+  border: 2px solid #005826;
+}
+
+button.buscar_cliente{
+  margin-left:20px;
+  text-decoration: none;
+  color: #005826;
+  background: rgba(204, 255, 204, 0.7);
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  height: 31px;
+  width: 153px;
+  border: 2px solid #005826;
+
+}
+button.buscar_cliente:hover{
+  background: #005826;
+  color: #ffffff;
+  -webkit-transition: all.5s ease-in-out;
+}
+
+::placeholder { color: rgba(0, 88, 38, 0.9); }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
