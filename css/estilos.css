@@ -715,6 +715,29 @@ button.buscar_cliente:hover{
 }
 
 ::placeholder { color: rgba(0, 88, 38, 0.9); }
+
+div.agregar-Usuario{
+  position: absolute;
+  margin-left: -700px;
+  margin-top: -30px;
+}
+
+.boton-agregar{
+  text-decoration: none;
+  color: #005826;
+  background: rgba(204, 255, 204, 0.7);
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  height: 31px;
+  width: 153px;
+  border: 2px solid #005826;
+}
+
+.boton-agregar:hover{
+  background: #005826;
+  color: #ffffff;
+  -webkit-transition: all.5s ease-in-out;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
