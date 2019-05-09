@@ -718,8 +718,8 @@ button.buscar_cliente:hover{
 
 div.agregar-Usuario{
   position: absolute;
-  margin-left: -700px;
-  margin-top: -30px;
+  margin-left: -500px;
+  margin-top: -40px;
 }
 
 .boton-agregar{
@@ -737,6 +737,17 @@ div.agregar-Usuario{
   background: #005826;
   color: #ffffff;
   -webkit-transition: all.5s ease-in-out;
+}
+
+div.posibles-clientes{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+div.cartas{
+  width: 300px;
+  height: 510px;
+  background: white;
 }
 /* ==========================================================================
    Helper classes
