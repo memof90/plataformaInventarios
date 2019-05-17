@@ -691,27 +691,28 @@ input.buscador{
   width: 300px;
   margin-left: -120px;
   height: 30px;
-  background-color:rgba(204, 255, 204, 0.7);
+  background-color:rgba(241, 249, 255, 0.7);
   padding: 5px 5px 5px 25px;
-  border: 2px solid #005826;
+  border: 2px solid #0A5389;
 }
 
 button.buscar_cliente{
   margin-left:20px;
   text-decoration: none;
-  color: #005826;
-  background: rgba(204, 255, 204, 0.7);
+  color: white;
+  background: #005826;
   font-family: 'Oswald', sans-serif;
   position: absolute;
   height: 31px;
   width: 153px;
-  border: 2px solid #005826;
+ border: 2px solid #005826;
 
 }
 button.buscar_cliente:hover{
-  background: #005826;
+  background: #0A5389;
   color: #ffffff;
   -webkit-transition: all.5s ease-in-out;
+  border: 2px solid #ffffff;
 }
 
 ::placeholder { color: rgba(0, 88, 38, 0.9); }
@@ -724,19 +725,20 @@ div.agregar-Usuario{
 
 .boton-agregar{
   text-decoration: none;
-  color: #005826;
-  background: rgba(204, 255, 204, 0.7);
+  color: white;
+  background: #005826;
   font-family: 'Oswald', sans-serif;
   position: absolute;
   height: 31px;
   width: 153px;
-  border: 2px solid #005826;
+ border: 2px solid #005826;
 }
 
 .boton-agregar:hover{
-  background: #005826;
+  background: #0A5389;
   color: #ffffff;
   -webkit-transition: all.5s ease-in-out;
+  border: 2px solid #ffffff;
 }
 
 div.posibles-clientes{
@@ -746,9 +748,92 @@ div.posibles-clientes{
 
 div.cartas{
   width: 300px;
-  height: 510px;
-  background: white;
+  height: 550px;
+  background: #F1F9FF;
+  border-radius: 9px 9px 9px 9px!important;
+
 }
+
+div.cartas img {
+border-radius: 7px 7px 0px 0px;
+overflow: hidden;
+max-width: 100%;
+filter: gray;
+-webkit-filter: grayscale(1);
+-webkit-transition: all.5s ease-in-out;
+-webkit-transform: scale(0.9);
+
+}
+
+div.cartas img:hover{
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.0);
+}
+
+.nombre-persona{
+  color: #2699FB;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.nombre-persona span{
+  color:  #0A5389;
+
+}
+
+.email-persona{
+  color: #2699FB;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+.email-persona span{
+  color:  #0A5389;
+}
+.telefono-persona{
+  color: #2699FB;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+.telefono-persona span{
+  color: #0A5389;
+}
+.producto-persona{
+  color: #2699FB;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+.producto-persona span{
+  color:  #0A5389;
+}
+
+.ver-mas{
+
+  background: #005826;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin-left: 40PX;
+  transition: all.5s ease-in-out;
+  border-radius:  2px 2px 2px 2px;
+  position: absolute;
+  width: 200px;
+}
+.ver-mas:hover{
+background:  #0A5389;
+color: white;
+text-decoration: none;
+
+}
+
+
+/* ==========================================================================
+   Prueba
+   ========================================================================== */
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
