@@ -829,6 +829,26 @@ text-decoration: none;
 
 }
 
+.lista-clientes{
+  list-style: none;
+  float: left;
+}
+
+.lista-clientes::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.lista-clientes .estilo-lista {
+  display: inline-block;
+  width: 400px;
+  margin-top: 20px;
+}
+
+
+
+
 
 /* ==========================================================================
    Prueba
