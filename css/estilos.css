@@ -846,14 +846,73 @@ text-decoration: none;
   margin-top: 20px;
 }
 
-
-
-
-
 /* ==========================================================================
-   Prueba
+   Formulario nuevo cliente director
    ========================================================================== */
 
+.Fomulario-cliente h4{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: #2699FB;
+}
+
+.formulario-client{
+  text-align: center;
+  color: #0A5389;
+}
+
+.Nombre-usuario{
+  padding: 5px 5px 5px 25px;
+  height: 30px;
+  background-color:rgba(241, 249, 255, 0.7);
+  border: 2px solid #0A5389;
+  width: 350px;
+}
+
+.mail-usuario{
+  padding: 5px 5px 5px 25px;
+  height: 30px;
+  background-color:rgba(241, 249, 255, 0.7);
+  border: 2px solid #0A5389;
+  width: 350px;
+}
+
+.telefono-usuario{
+
+  padding: 8px 8px 8px 25px;
+  height: 30px;
+  background-color:rgba(241, 249, 255, 0.7);
+  border: 2px solid #0A5389;
+  width: 350px;
+}
+
+.opciones-Quesos{
+  height: 30px;
+  background-color:rgba(241, 249, 255, 0.7);
+  border: 2px solid #0A5389;
+  width: 350px;
+}
+
+.foto-user{
+  height: 30px;
+  background-color:rgba(241, 249, 255, 0.7);
+  border: 2px solid #0A5389;
+  width: 350px;
+}
+
+.summit-boton{
+  color: #ffffff;
+  background-color:#0A5389;
+  transition: all.5s ease-in-out;
+  height: 30px;
+  width: 350px;
+}
+
+.summit-boton:hover{
+ background: #2699FB;
+ transition: all.5s ease-in-out;
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
