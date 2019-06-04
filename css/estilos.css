@@ -906,7 +906,7 @@ text-decoration: none;
   transition: all.5s ease-in-out;
   height: 30px;
   width: 350px;
-  
+
 }
 
 .summit-boton:hover{
@@ -914,6 +914,42 @@ text-decoration: none;
  transition: all.5s ease-in-out;
 
 }
+
+/* ==========================================================================
+   Formulario nuevo cliente director
+   ========================================================================== */
+   .Titulo-sucursal{
+     text-align: center;
+     margin-top: 100px;
+     color: #2699FB;
+     font-family: 'Oswald', sans-serif;
+   }
+   table{
+     width: 80%;
+     margin-top: 140px;
+     border: 1px solid #707070;
+     margin: 0 auto;
+     background-color: #ffffff;
+   }
+
+   th{
+     width: 15%;
+     text-align: center;
+     vertical-align: top;
+     border: 1px solid #707070;
+   }
+
+ .semanales{
+   color: #707070;
+ }
+   .semanales:hover{
+     background-color: #0A5389;
+     color: #ffffff;
+   }
+   thead{
+     background-color: #2699FB;
+     color: #ffffff;
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
