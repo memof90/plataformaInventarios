@@ -945,10 +945,26 @@ text-decoration: none;
    .semanales:hover{
      background-color: #0A5389;
      color: #ffffff;
+     transition: all.5s ease-in-out;
    }
    thead{
      background-color: #2699FB;
      color: #ffffff;
+   }
+   /*Botones*/
+   .exportar-excel{
+     color: white;
+     background-color: #2699FB;
+     font-family: 'Oswald', sans-serif;
+     border-radius: 36px 36px 36px 36px;
+     width: 140px;
+     height: 50px;
+   }
+
+   .exportar-excel:hover{
+     background-color: #0A5389;
+     transition: all.5s ease-in-out;
+
    }
 /* ==========================================================================
    Helper classes
