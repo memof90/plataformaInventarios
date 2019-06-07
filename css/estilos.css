@@ -966,6 +966,78 @@ text-decoration: none;
      transition: all.5s ease-in-out;
 
    }
+
+   /* ==========================================================================
+      interfaz empleados
+      ========================================================================== */
+
+.empleados-lista{
+  list-style: none;
+}
+.empleados-list{
+  width: 200px;
+  height: 200px;
+  background: #F1F9FF;
+  border-radius: 200px 200px 200px 200px;
+
+}
+
+.empleados-foto{
+  border-radius: 200px 200px 200px 200px;
+  width: 150px;
+  height: 150px;
+  margin-left: 25px;
+  margin-top: 25px;
+  overflow: hidden;
+  -webkit-transform: scale(0.9);
+  transition: all.5s ease-in-out;
+}
+
+.empleados-foto:hover{
+-webkit-transform: scale(1.0);
+}
+
+.nombre-empleado{
+margin-left: 15px;
+color: #2699FB;
+font-family: 'Oswald', sans-serif;
+font-size: 1.2em;
+}
+
+.Departamento-empleado{
+  margin-left: 40px;
+  color: #2699FB;
+  font-size: 1.1em;
+}
+
+
+/*Modal ver mas*/
+.empleados-list1{
+  width: 60px;
+  height: 60px;
+  background: #F1F9FF;
+  border-radius: 200px 200px 200px 200px;
+}
+
+.empleados-foto1{
+  border-radius: 200px 200px 200px 200px;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+  -webkit-transform: scale(0.9);
+  transition: all.5s ease-in-out;
+}
+
+.empleados-foto1:hover{
+-webkit-transform: scale(1.0);
+}
+
+.form-group{
+  margin-left: 100px;
+  margin-top: -130px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
