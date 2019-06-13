@@ -60,61 +60,238 @@
     </nav>
     </div><!--navegacion-->
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+     <div class="buscar-cliente">
+      <form class="busca-cliente" action="index.html" method="post">
+        <input class="busca-clientes" type="search" name="" value="" placeholder="Buscar Empleado">
+        <i class="fas fa-search" style="margin-left: -200px; color: #0A5389; position: absolute; margin-top: 7px;"></i>
+        <input class="buscar_botons" type="submit" name="" value="Buscar">
+      </form>
+     </div>
+
+    <br>
+    <br>
+    <br>
     <div class="lista-empleados">
       <ul class="empleados-lista">
-        <li>
+
+        <li class="uno-lista">
           <div class="fondo-list">
           <div class="empleados-list">
-          <img  class="empleados-foto" src="img/cliente8.jpg" alt="">
+          <img  class="empleados-foto" src="img/cliente9.jpg" alt="">
           </div>
-          <p class="nombre-empleado">Carol Andrea Martinez</p>
-          <p class="Departamento-empleado">Producción</p>
-          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
+          <p class="nombre-empleado">Carlos Andres Martinez</p>
+          <p class="Departamento-empleado">Contabilidad</p>
+        </div>
+        <a href="#openModal" class="modal-boton btn btn-primary" style="text-decoration: none; width: 140px; height: 30px; margin-left: 10px;">Ver Más</a>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Datos del Empleado</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+
+    <div class="body-modal">
+      <h5>Datos del Empleado</h5>
+    </div>
+		<hr>
+
+    <div class="cotenido-modal">
+      <img class="empleados-foto1" src="img/cliente9.jpg" alt="">
+      <div class="form-group">
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Nombre: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Carlos Andres Matrinez</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Dependencia: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Contabilidad</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Cargo: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Contador</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Fecha Nacimiento: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">9 de febrero 1998</span></label>
       </div>
-      <div class="modal-body">
-        <div class="container-fluid">
-        <br>
-        <br>
-        <div class="fondo-list1">
-        <div class="empleados-list1">
-        <img  class="empleados-foto1" src="img/cliente8.jpg" alt="">
-        <div class="form-group">
+    </div>
+	</div>
+</div>
+        </li>
+
+        <li class="uno-lista">
+          <div class="fondo-list">
+          <div class="empleados-list">
+          <img  class="empleados-foto" src="img/cliente11.jpg" alt="">
           </div>
+          <p class="nombre-empleado">Gabriel Arevalo Alvarez</p>
+          <p class="Departamento-empleado">Fabricación</p>
         </div>
-        </div>
+        <a href="#openModal1" class="modal-boton1 btn btn-primary" style="text-decoration: none; width: 140px; height: 30px; margin-left: 10px;">Ver Más</a>
+
+<div id="openModal1" class="modalDialog1">
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+
+    <div class="body-modal">
+      <h5>Datos del Empleado</h5>
+    </div>
+    <hr>
+
+    <div class="cotenido-modal">
+      <img class="empleados-foto1" src="img/cliente11.jpg" alt="">
+      <div class="form-group">
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Nombre: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">GGabriel Arevalo Alvarez</span></label>
         <br>
-        <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Nombre: <span>Carol Andrea Martinez</span></label>
-            <label for="recipient-name" class="col-form-label">Dependencia: <span>Logistica</span></label>
-            <label for="recipient-name" class="col-form-label">Cargo: <span>jefe de Logistica</span></label>
-            <label for="recipient-name" class="col-form-label">Fecha Nacimiento: <span>5 de Noviembre 1994</span></label>
-
-          </div>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Dependencia: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Fabricación</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Cargo: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Fabricador</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Fecha Nacimiento: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">4 de enero 1989</span></label>
       </div>
     </div>
   </div>
 </div>
-          </div>
         </li>
+
+        <li class="uno-lista">
+          <div class="fondo-list">
+          <div class="empleados-list">
+          <img  class="empleados-foto" src="img/cliente4.jpg" alt="">
+          </div>
+          <p class="nombre-empleado">Carmen Elena Alvarez</p>
+          <p class="Departamento-empleado">Contabilidad</p>
+        </div>
+        <a href="#openModal2" class="modal-boton2 btn btn-primary" style="text-decoration: none; width: 140px; height: 30px; margin-left: 10px;">Ver Más</a>
+
+<div id="openModal2" class="modalDialog2">
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+
+    <div class="body-modal">
+      <h5>Datos del Empleado</h5>
+    </div>
+    <hr>
+
+    <div class="cotenido-modal">
+      <img class="empleados-foto1" src="img/cliente4.jpg" alt="">
+      <div class="form-group">
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Nombre: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Carmen Elena Alvarez</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Dependencia: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Contabilidad</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Cargo: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Contadora Auxiliar</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Fecha Nacimiento: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">20 de febrero de 1990</span></label>
+      </div>
+    </div>
+  </div>
+</div>
+        </li>
+
+        <li class="uno-lista">
+          <div class="fondo-list">
+          <div class="empleados-list">
+          <img  class="empleados-foto" src="img/cliente10.jpg" alt="">
+          </div>
+          <p class="nombre-empleado">Jorge Andres Alarcon</p>
+          <p class="Departamento-empleado">Administración</p>
+        </div>
+        <a href="#openModal3" class="modal-boton3 btn btn-primary" style="text-decoration: none; width: 140px; height: 30px; margin-left: 10px;">Ver Más</a>
+
+<div id="openModal3" class="modalDialog3">
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+
+    <div class="body-modal">
+      <h5>Datos del Empleado</h5>
+    </div>
+    <hr>
+
+    <div class="cotenido-modal">
+      <img class="empleados-foto1" src="img/cliente10.jpg" alt="">
+      <div class="form-group">
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Nombre: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Jorge Andres Alarcon</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Dependencia: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Administración</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Cargo: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Contador</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Fecha Nacimiento: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">30 de febrero 1998</span></label>
+      </div>
+    </div>
+  </div>
+</div>
+        </li>
+
+        <li class="uno-lista">
+          <div class="fondo-list">
+          <div class="empleados-list">
+          <img  class="empleados-foto" src="img/cliente6.jpg" alt="">
+          </div>
+          <p class="nombre-empleado">Carlos Julian Rodriguez</p>
+          <p class="Departamento-empleado">Finanzas</p>
+        </div>
+        <a href="#openModal4" class="modal-boton4 btn btn-primary" style="text-decoration: none; width: 140px; height: 30px; margin-left: 10px;">Ver Más</a>
+
+<div id="openModal4" class="modalDialog4">
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+
+    <div class="body-modal">
+      <h5>Datos del Empleado</h5>
+    </div>
+    <hr>
+
+    <div class="cotenido-modal">
+      <img class="empleados-foto1" src="img/cliente6.jpg" alt="">
+      <div class="form-group">
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Nombre: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Carlos Julian Rodriguez</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Dependencia: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Finanzas</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Cargo: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Contador</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Fecha Nacimiento: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">30 de Marzo 1998</span></label>
+      </div>
+    </div>
+  </div>
+</div>
+        </li>
+
+        <li class="uno-lista">
+          <div class="fondo-list">
+          <div class="empleados-list">
+          <img  class="empleados-foto" src="img/cliente7.jpg" alt="">
+          </div>
+          <p class="nombre-empleado">Julian Andres Faridez</p>
+          <p class="Departamento-empleado">Contabilidad</p>
+        </div>
+        <a href="#openModal5" class="modal-boton5 btn btn-primary" style="text-decoration: none; width: 140px; height: 30px; margin-left: 10px;">Ver Más</a>
+
+<div id="openModal5" class="modalDialog5">
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+
+    <div class="body-modal">
+      <h5>Datos del Empleado</h5>
+    </div>
+    <hr>
+
+    <div class="cotenido-modal">
+      <img class="empleados-foto1" src="img/cliente7.jpg" alt="">
+      <div class="form-group">
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Nombre: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Julian Andres Faridez</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Dependencia: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Marketing</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Cargo: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">Contador</span></label>
+        <br>
+        <label for="recipient-name" class="col-form-label" style="color: #0A5389;font-family: 'Oswald', sans-serif;">Fecha Nacimiento: <span style="color: #2699FB;font-family: 'Oswald', sans-serif;">9 de Julio 1998</span></label>
+      </div>
+    </div>
+  </div>
+</div>
+        </li>
+
       </ul>
     </div>
 

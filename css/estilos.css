@@ -1013,16 +1013,17 @@ font-size: 1.2em;
 
 /*Modal ver mas*/
 .empleados-list1{
-  width: 60px;
-  height: 60px;
+  width: 110px;
+  height: 110px;
   background: #F1F9FF;
   border-radius: 200px 200px 200px 200px;
+  margin-left: -20px;
 }
 
 .empleados-foto1{
   border-radius: 200px 200px 200px 200px;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   margin-left: 5px;
   margin-top: 5px;
   overflow: hidden;
@@ -1038,6 +1039,299 @@ font-size: 1.2em;
   margin-left: 100px;
   margin-top: -130px;
 }
+
+/*buscador clientes*/
+.buscar-cliente{
+text-align: center;
+}
+
+.busca-clientes{
+  padding: 5px 5px 5px 25px;
+  border: 2px solid #0A5389;
+  background: rgba(241,249,255,.8);
+}
+.buscar_botons{
+  color: white;
+  background-color: #2699FB;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 36px 36px 36px 36px;
+  width: 140px;
+  height: 30px;
+  transition: all.5s ease-in-out;
+}
+
+.buscar_botons:hover{
+  background-color: #0A5389;
+  transition: all.5s ease-in-out;
+}
+
+
+
+/*prueba*/
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+.close {
+	background: #2699FB;
+	color: #0A5389;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #2699FB;
+	-webkit-box-shadow: 1px 1px 3px #2699FB;
+	box-shadow: 1px 1px 3px #2699FB;
+  transition: all.5s ease-in-out;
+}
+.close:hover {
+background: #0A5389;
+color: white;
+transition: all.5s ease-in-out;
+}
+
+/*nivel 2*/
+.modalDialog1 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog1:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog1 > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+/*nivel 3*/
+.modalDialog2 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog2:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog2 > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+/*nivel 4*/
+.modalDialog3 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog3:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog3 > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+/*nivel 5*/
+.modalDialog4 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog4:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog4 > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+/*nivel 5*/
+.modalDialog5 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog5:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog5 > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+
+
+/*Datos Modal*/
+.body-modal{
+  background: #0A5389;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+}
+
+/*lista empleados */
+/*
+div.lista-empleados > ul > li{
+  float: left;
+}
+
+div.lista-empleados ul::after{
+ content: '';
+ display: block;
+ clear: both;
+}
+*/
+
+.uno-lista{
+  float: left;
+}
+
+
+div.lista-empleados ul::after{
+ content: '';
+ display: block;
+ clear: both;
+}
+
+.lista-empleados{
+  width: 100%;
+  margin: auto;
+}
+
+.uno-lista{
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
