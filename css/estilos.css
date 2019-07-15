@@ -1331,6 +1331,39 @@ div.lista-empleados ul::after{
   margin-top: 30px;
 }
 
+/* ==========================================================================
+  Interfaz Tipo de Logistica
+   ========================================================================== */
+   /*Formulario Logisticas*/
+   .contenido-Formulario h4{
+     color: #2699FB;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin-top: 160px;
+   }
+
+   .contenido-Formulario label{
+     color: #2699FB;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+
+.Nombre-Conductor{
+  height: 30px;
+  background-color:rgba(241, 249, 255, 0.7);
+  border: 2px solid #0A5389;
+  width: 350px;
+}
+
+.Formulario-logistica{
+  text-align: center;
+}
+
+.Nota-usuario{
+  background-color:rgba(241, 249, 255, 0.7);
+  border: 2px solid #0A5389;
+}
+
+
 
 /* ==========================================================================
    Helper classes
