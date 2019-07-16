@@ -1363,8 +1363,112 @@ div.lista-empleados ul::after{
   border: 2px solid #0A5389;
 }
 
+/*Logistica de Entrada*/
+.Logistica-Entrada{
+  background-color: white;
+  width: 900px;
+  height: 600px;
+  margin: 50px auto;
+}
 
+.Logistica-Entrada1 h5{
+  color: #2699FB;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 140px;
+}
 
+.Producto-Llegando{
+  background-color: #CFE4F6;
+  height: 40px;
+}
+
+.Producto-Llegando h6{
+  color: #2699FB;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 10px 10px 30px;
+  position: absolute;
+  font-weight: bold;
+}
+.Datos-Llenar ul {
+  list-style: none;
+  margin-top: 70px;
+}
+
+.Datos-Llenar ul > li{
+  float: left;
+}
+
+.Datos-Llenar ul::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.lista-items1{
+  margin-top: -20px!important;
+}
+
+.lista-items li h8{
+  color: #2699FB;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lista-items li i {
+  background: linear-gradient(#626ED8,#B914A4,#BC11A2);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.2em;
+}
+/*Banda Azul*/
+.Banda-Azul{
+  background-color: #CFE4F6;
+  height: 40px;
+  margin-top: 120px;
+}
+
+.Banda-Azul ul {
+  list-style: none;
+}
+
+.Banda-Azul ul > li {
+  float: left;
+}
+
+.Banda-Azul ul::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Banda-Azul ul li {
+  margin-left: 70PX;
+  width: 210PX;
+}
+.Banda-Azul ul li {
+  color: #2699FB;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.Banda-Azul ul li span{
+  color: #858585;
+  font-weight: normal;
+}
+
+/*textarea*/
+.post-content{
+  position: relative;
+transition: all .2s ease-in-out;
+}
+
+.comentario-Header{
+  line-height: 5;
+font-size: 13px;
+padding-right: 46px;
+margin-bottom: 3px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
