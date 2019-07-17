@@ -1469,6 +1469,12 @@ font-size: 13px;
 padding-right: 46px;
 margin-bottom: 3px;
 }
+
+/*Ver Más Logistica resuemn*/
+.Ver-mas-Logistica{
+  text-decoration: none!important;
+  background-color: white;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
