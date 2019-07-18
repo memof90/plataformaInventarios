@@ -1581,8 +1581,30 @@ transition: all.5s ease-in-out;
   clear: both;
 }
 
+/*Buscar*/
+.Buscardor-Producto{
+  margin-left: 120px;
+}
 
+.buscar-textfiled{
+  padding: 8px 8px 8px 25px;
+  height: 30px;
+  background-color:rgba(241, 249, 255, 0.7);
+  border: 2px solid #0A5389;
+  width: 350px;
+}
+.boton-textfiled{
+  color: #ffffff;
+  background-color:#0A5389;
+  transition: all.5s ease-in-out;
+  height: 30px;
+  width: 80px;
+}
 
+.boton-textfiled:hover{
+  transition: all.5s ease-in-out;
+  background: #2699FB;
+}
 
 
 /* ==========================================================================
