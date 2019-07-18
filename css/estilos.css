@@ -1606,6 +1606,46 @@ transition: all.5s ease-in-out;
   background: #2699FB;
 }
 
+/* ==========================================================================
+   Interfaz ver Mas Productos
+   ========================================================================== */
+   .Fondo-Ver{
+     background-color: #2699FB;
+     width: 800px;
+     height: 500px;
+     margin: 150px auto;
+   }
+
+   .Imagen-Ver img{
+     width: 300px;
+     height: 300px;
+
+     margin-top: 120px;
+   }
+
+ .Imagen-Ver img {
+   -webkit-transform: scale(0.8);
+   transition: all.5s ease-in-out;
+ }
+ .Imagen-Ver img:hover {
+  -webkit-transform: scale(1.0);
+ }
+
+.Contenido-ver{
+  float: right;
+  margin-top: -400px;
+  position: absolute;
+  margin-left: 400px;
+}
+
+
+.Contenido-ver h4{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+
+}
+
 
 /* ==========================================================================
    Helper classes
