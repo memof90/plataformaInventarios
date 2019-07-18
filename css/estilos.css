@@ -1310,6 +1310,7 @@ div.lista-empleados ul::after{
 }
 */
 
+/*Lista Empleado*/
 .uno-lista{
   float: left;
 }
@@ -1475,6 +1476,104 @@ margin-bottom: 3px;
   text-decoration: none!important;
   background-color: white;
 }
+
+/* ==========================================================================
+   Interfaz Quesos
+   ========================================================================== */
+.Productos-Quesos h4 {
+ text-align: center;
+ margin: 128px auto;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #2699FB;
+ font-weight: bold;
+}
+
+/*Cards Productos*/
+.Cards1{
+  background-color: #ffffff;
+  width: 260px;
+  height: 460px;
+}
+
+.barra-azul{
+  background: #CFE4F6;
+  height: 30px;
+}
+
+.barra-azul h7{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2699FB;
+  margin-left: 40px;
+}
+
+.imagen-queso{
+  height: 220px;
+  margin-left: 15px;
+  margin-top: 10px;
+  -webkit-transform: scale(0.9);
+  transition: all.5s ease-in-out;
+}
+
+.imagen-queso:hover{
+  -webkit-transform: scale(1.0);
+}
+
+.Contedio-Resumen{
+color: #2699FB;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background: #CFE4F6;
+height: 30px;
+}
+
+.Boton-Card{
+background-color: #2699FB;
+height: 31px;
+transition: all.5s ease-in-out;
+}
+
+.Boton-Card:hover{
+  background-color: #0A5389;
+  transition: all.5s ease-in-out;
+  color: white;
+}
+.Boton-Card a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Boton-Card1{
+  background: #2699FB;
+  height: 30px;
+  width: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all.5s ease-in-out;
+}
+
+.Boton-Card1:hover{
+  background: #0A5389;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all.5s ease-in-out;
+}
+
+.Boton-Card1 a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Contenido-cartas{
+ margin-left: 40px;
+}
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
